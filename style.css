@@ -20,6 +20,11 @@ header, footer {
   padding: 2rem;
 }
 
+main {
+  display: block;
+  margin: 0 auto;
+}
+
 header h1 {
   margin: 0;
   font-size: 2rem;
