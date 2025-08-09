@@ -56,7 +56,7 @@
       padding: 4rem 2rem;
       text-align: center;
     }
-    .services, .pricing, .booking, .contact {
+    .services, .pricing, .contact {
       background-color: #f4f4f4;
     }
     .service-item, .price-item {
@@ -94,7 +94,6 @@
     <nav>
       <a href="#services">Services</a>
       <a href="#pricing">Pricing</a>
-      <a href="#booking">Booking</a>
       <a href="#contact">Contact</a>
     </nav>
   </header>
@@ -102,7 +101,7 @@
   <section class="hero">
     <h1>Capture Your Day. Tell Your Story.</h1>
     <p>Luxury Wedding Photography & Cinematic Videography in DC & Maryland</p>
-    <a href="#booking" class="btn">📅 Reserve Your Date</a>
+    <a href="contact.html" class="btn">📅 Reserve Your Date</a>
   </section>
 
   <section id="services" class="services">
@@ -135,24 +134,6 @@
       <h3>Signature Package – $2,500</h3>
       <p>Full day coverage, 500+ edited photos, 7-minute film, drone footage, engagement shoot included.</p>
     </div>
-  </section>
-
-  <section id="booking" class="booking">
-    <h2>Book Your Date</h2>
-    <p>Fill out the form below and we’ll contact you within 24 hours.</p>
-    <form action="https://formspree.io/f/xwkgyqzd" method="POST">
-      <input type="text" name="name" placeholder="Your Name" required>
-      <input type="email" name="email" placeholder="Your Email" required>
-      <input type="tel" name="phone" placeholder="Your Phone" required>
-      <input type="date" name="event_date" placeholder="Event Date" required>
-      <select name="service">
-        <option value="Photography">Photography</option>
-        <option value="Videography">Videography</option>
-        <option value="Both">Both</option>
-      </select>
-      <textarea name="message" rows="4" placeholder="Tell us more about your day..."></textarea>
-      <button type="submit">Submit</button>
-    </form>
   </section>
 
   <section id="contact" class="contact">
