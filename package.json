@@ -1,13 +1,14 @@
 {
   "name": "ynv",
   "version": "1.0.0",
-  "description": "",
+  "description": "Static site for Yung N Valuable with a booking form",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "start": "node server.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Yung N Valuable",
   "license": "ISC",
   "type": "commonjs",
   "devDependencies": {
